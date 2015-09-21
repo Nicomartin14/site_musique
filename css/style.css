@@ -11,7 +11,7 @@ body{
 p,a{
     color: rgba(255, 255, 255, 0.7);
 }
-h1,h2{
+.titre{
    color: rgba(255, 255, 255, 1); 
 }
 #body-opacity{
@@ -130,21 +130,37 @@ footer li {
 }
 
 .premier_footer{
-padding-top: 50px;
-border-top: 1px solid rgba(255, 255, 255, 0.2);
-overflow: hidden;
-padding-top: 30px;
-margin-bottom: 30px;
-
+	padding-top: 50px;
+	border-top: 1px solid rgba(255, 255, 255, 0.2);
+	overflow: hidden;
+	padding-top: 30px;
+	margin-bottom: 30px;
 }
 
 .footer-btn{
- color: rgba(255, 255, 255, 1);
- margin: 10px;
+	 color: rgba(255, 255, 255, 1);
+	 margin: 10px;
 }
 
-
 .footer-btn:hover{
- color: rgba(255, 255, 255, 0.7);
+ 	color: rgba(255, 255, 255, 0.7);
+}
 
+/*             css page bio     */
+#texte {
+    text-align: justify;
+}
+
+#bio-img {
+    padding-top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+#texte {
+    margin-right: 150px;
+    margin-left: 150px;
 }
